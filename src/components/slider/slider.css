@@ -1,50 +1,9 @@
 .slider-container{
-    padding: 50px 0px;
-    max-width: 1300px;
-    /* border: 1px solid red; */
-    margin: 0 auto;
-}
-.slider-boxes{
-    width: 702px;
-    height: 396px;
-    border: 1px solid white;
-    margin: 0px auto;
-    position: relative;
-    border-radius: 15px;
-}
-.slider-line{
-    width: 3504px;
-    height: 396px;
     display: flex;
-    position: relative;
+    justify-content: center;
+    border-radius: 20px;
 }
-.slider-line img{
-    width: 700px;
-    border-radius: 15px;
-}
-.slider-btn{
-    width: 100%;
-    margin: 200px 0px;
-    padding: 0px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    /* top: 50%; */
-}
-.slider-btn button{
-    background: none;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    color: white;
-    opacity: 0.3;
-    border: 1px transparent;
-}
-.slider-btn button:hover{
-    background: orangered;
-}
-.slider-btn button:active{
-    background: #000;
-    color: orangered;
+.carusel-top{
+    margin-top: 50px;
+    width: 950px;
 }

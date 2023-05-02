@@ -4,7 +4,7 @@ import HeaderImgSearch from '../../assets/img/search-icon.png'
 
 function Header() {
   return (
-    <div className='header-container'>
+    <div className='header-containers'>
   
       <div className='header-top'>
   

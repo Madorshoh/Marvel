@@ -1,6 +1,5 @@
 import './card.css'
 import{ useState,useEffect } from 'react'
-import ImgCard1 from '../../assets/img/imgcard/cardimg1.jpg'
 function Card() {
     
     const [data, setData] =useState()
@@ -13,15 +12,14 @@ function Card() {
         .then((data) => setData(data));
     
     },[])
-    console.log(data);
+    // console.log(data);
 
     return(
-        <div className="card-container">
+        <div className="card-container" >
             {
                 data?.map((item) => {
                     return(
-                        <div className="card-boxes">
-                                
+                        <div className="card-boxes" key={item.Title}>
                             <div className="card-poster">
                                 <img src={item.Poster} alt="" />
                             </div>

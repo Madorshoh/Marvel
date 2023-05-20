@@ -1,0 +1,57 @@
+.guardians-container{
+    width: 1300px;
+    height: auto;
+    margin: 0 auto;
+}
+.owerwiew-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.ImgOwerGotg{
+    width: 1300px;
+}
+.owerwiew{
+    width: 1000px;
+    height: 550px;
+    background: rgb(255, 255, 255);
+    position: relative;
+    top: -50px;
+}
+.owerwiew h2{
+    font-size: 24px;
+    margin: 50px 50px 5px 50px;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
+
+.owerwiw-container-box{
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.plot{
+    display: block;
+    width: 500px;
+    font-weight: 600;
+}
+.writer{
+    display: block;
+    width: 240px;
+}
+.owerview-box{
+    display: flex;
+}
+.awards{
+    display: block;
+}
+
+.owerview-container-left span{
+    font-weight: 600;
+}
+.owerview-img img{
+    width: 255px;
+}

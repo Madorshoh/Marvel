@@ -3,7 +3,7 @@ import './guardians.css'
 import ImgOwerGotg from "../../assets/img/guardiansImg/guardiansofthegalaxyvol2_lob_fea_dsk_01.jpg"
 import Charakters from "./charakters/charaktersGuardians";
 import { useState, useEffect} from "react";
-import axios from "axios";
+// import axios from "axios";
 
 
 const Guardians = () => {

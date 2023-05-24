@@ -1,5 +1,6 @@
 import './card.css'
 import{ useState,useEffect } from 'react'
+
 function Card() {
     
     const [data, setData] =useState()

@@ -3,6 +3,8 @@
     height: 86px;
     margin: 0 auto;
     padding: 5px 0px;
+     background-color: #191919;
+
 }
 .header-top{
     display: flex;

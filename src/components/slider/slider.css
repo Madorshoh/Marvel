@@ -1,7 +1,9 @@
 .slider-container{
     display: flex;
     justify-content: center;
-    border-radius: 20px;
+    background-color: #191919;
+    width: 1300px;
+    margin: 0 auto;
 }
 .carusel-top{
     margin-top: 50px;

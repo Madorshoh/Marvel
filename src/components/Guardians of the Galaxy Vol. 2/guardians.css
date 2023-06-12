@@ -9,6 +9,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
+    background-color: #202020;
 }
 .ImgOwerGotg{
     width: 1300px;
@@ -16,7 +17,7 @@
 .owerwiew{
     width: 1000px;
     height: 550px;
-    background: rgb(255, 255, 255);
+    background: rgb(172, 111, 111);
     position: relative;
     top: -50px;
 }
